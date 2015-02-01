@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  purchase_date: 2015-02-01
+  drawing_date: 2015-02-01
+  number1: 1
+  number2: 1
+  number3: 1
+  number4: 1
+  number5: 1
+  bonusNumber: 1
+
+two:
+  purchase_date: 2015-02-01
+  drawing_date: 2015-02-01
+  number1: 1
+  number2: 1
+  number3: 1
+  number4: 1
+  number5: 1
+  bonusNumber: 1
