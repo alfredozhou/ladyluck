@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3719261529">
+    <data-source source="LOCAL" name="Rails ladyluck: development" uuid="fd054b8d-d42c-47fa-9535-15087ef28a72">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/development.sqlite3</jdbc-url>
+      <user-name>ladyluck</user-name>
+      <user-password>dfdbdfc1dff4df9fdfc5dfd0df89dfc9df9fdfe5dfcbdf9a</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ladyluck: test" uuid="8c3a02ad-390d-4a3a-a856-0f20eb194ae4">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/test.sqlite3</jdbc-url>
+      <user-name>ladyluck</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ladyluck: production" uuid="672ee79a-33c0-4ca0-b291-ba7d7b5fef44">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:db/production.sqlite3</jdbc-url>
+      <user-name>ladyluck</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

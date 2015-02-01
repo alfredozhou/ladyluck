@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails ladyluck: development" uuid="fd054b8d-d42c-47fa-9535-15087ef28a72">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ladyluck: test" uuid="8c3a02ad-390d-4a3a-a856-0f20eb194ae4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ladyluck: production" uuid="672ee79a-33c0-4ca0-b291-ba7d7b5fef44">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
