@@ -1,4 +1,4 @@
 class LotteryTicket < ActiveRecord::Base
-	belong_to :user
-	belong_to :lottery
+	belongs_to :user
+	belongs_to :lottery
 end
