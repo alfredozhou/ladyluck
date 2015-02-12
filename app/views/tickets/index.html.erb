@@ -1,0 +1,17 @@
+<h1> Your tickets</h1>
+
+ <table>
+        <thead>
+        <tr>
+            <th>Account</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>Type</th>
+            <th>New Type</th>
+            <th>Manual</th>
+        </tr>
+        </thead>
+        <tbody>
+        <%= render partial: 'fee_row', collection: @tickets.order(accountID: :asc, date: :desc), as: :fee %>
+        </tbody>
+    </table>
