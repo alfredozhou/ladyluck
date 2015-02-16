@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ladyluck</title>
+  <title>Lady Luck</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="<%= controller_name %> <%= action_name %> <%= yield :body_class %>">
 
-<%= yield %>
+    <%= render 'layouts/header' %>
 
+    <%= render 'shared/flashes' unless flash.empty? %>
+
+    <div class="main-content">
+        <div class="container-fluid">
+        <%= yield %>
+        </div>
+    </div>
 </body>
 </html>

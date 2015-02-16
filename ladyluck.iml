@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RUBY_MODULE" version="4">
   <component name="CompassSettings">
+    <option name="compassExecutableFilePath" value="/opt/rubies/jruby-1.7.12/lib/ruby/gems/shared/gems/compass-0.12.7/bin/compass" />
     <option name="compassSupportEnabled" value="true" />
+    <option name="importPaths">
+      <list>
+        <option value="/opt/rubies/jruby-1.7.12/lib/ruby/gems/shared/gems/compass-0.12.7/frameworks/compass/stylesheets" />
+        <option value="/opt/rubies/jruby-1.7.12/lib/ruby/gems/shared/gems/compass-0.12.7/frameworks/blueprint/stylesheets" />
+      </list>
+    </option>
   </component>
   <component name="FacetManager">
     <facet type="RailsFacetType" name="Ruby on Rails">
@@ -28,11 +35,16 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.1.5, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.1.5, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v5.0.1.20140414130214, jruby-1.7.12-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.7, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.2, jruby-1.7.12-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.3.1, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.1, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.3.0, jruby-1.7.12-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass (v0.12.7, jruby-1.7.12-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass-rails (v2.0.0, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, jruby-1.7.12-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fssm (v0.2.10, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.1.2, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.2, jruby-1.7.12-p392) [gem]" level="application" />
@@ -48,6 +60,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.19, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, jruby-1.7.12-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.0.2, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.12.3, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, jruby-1.7.12-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.4, jruby-1.7.12-p392) [gem]" level="application" />

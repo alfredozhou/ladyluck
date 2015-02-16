@@ -4,23 +4,23 @@
     <data-source source="LOCAL" name="Rails ladyluck: development" uuid="fd054b8d-d42c-47fa-9535-15087ef28a72">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/development.sqlite3</jdbc-url>
-      <user-name>ladyluck</user-name>
-      <user-password>dfdbdfc1dff4df9fdfc5dfd0df89dfc9df9fdfe5dfcbdf9a</user-password>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/ladyluck</jdbc-url>
+      <user-name>azhou</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails ladyluck: test" uuid="8c3a02ad-390d-4a3a-a856-0f20eb194ae4">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/test.sqlite3</jdbc-url>
-      <user-name>ladyluck</user-name>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/ladyluck_test</jdbc-url>
+      <user-name>azhou</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails ladyluck: production" uuid="672ee79a-33c0-4ca0-b291-ba7d7b5fef44">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/production.sqlite3</jdbc-url>
-      <user-name>ladyluck</user-name>
+      <jdbc-url>jdbc:postgresql://ec2-107-21-118-56.compute-1.amazonaws.com/d4bc6eqcfd0gne</jdbc-url>
+      <user-name>qkvldmmpwzpssp</user-name>
+      <user-password>dff2df9bdfc5dfdcdfe0dff3dff3dfe6dff2dffddfc4df9cdfc5dfc8dff3dfe6dfffdff0dfd0dfebdfe7df98dfe4dfdbdfd3df9a</user-password>
       <libraries />
     </data-source>
   </component>

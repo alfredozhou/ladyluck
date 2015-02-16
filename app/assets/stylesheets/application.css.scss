@@ -14,5 +14,35 @@
  *= require_self
  */
 
-@import "bootstrap-sprockets"
-@import "bootstrap"
+@import "compass/css3/border-radius";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "definitions";
+@import "header";
+@import "form";
+
+@font-face {
+    font-family: "Sanchez";
+    src: url(/assets/Sanchez-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Sanchez-Italic";
+    src: url(/assets/Sanchez-Italic.ttf) format("truetype");
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+body {
+	font-family: 'Sanchez', serif;
+	padding-bottom: 10%;
+	background: tan;
+	
+	.main-content {
+	  max-width: $app-width;
+	  margin: auto;
+	}
+}
