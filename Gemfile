@@ -33,6 +33,10 @@ gem 'bcrypt', '~> 3.1.7', require: "bcrypt"
 gem 'simple_form'
 gem 'autoprefixer-rails'
 
+group :production, :staging do
+  gem 'rails_12factor'
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
