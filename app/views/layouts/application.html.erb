@@ -10,9 +10,10 @@
 
     <%= render 'layouts/header' %>
 
-    <%= render 'shared/flashes' unless flash.empty? %>
+    
 
     <div class="main-content">
+      <%= render 'shared/flashes' unless flash.empty? %>
         <div class="container-fluid">
         <%= yield %>
         </div>

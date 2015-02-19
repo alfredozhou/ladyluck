@@ -3,15 +3,18 @@
  <table>
         <thead>
         <tr>
-            <th>Account</th>
-            <th>Amount</th>
-            <th>Date</th>
-            <th>Type</th>
-            <th>New Type</th>
-            <th>Manual</th>
+            <th>Game</th>
+            <th>Draw Date</th>
+            <th>Number 1</th>
+            <th>Number 2</th>
+            <th>Number 3</th>
+            <th>Number 4</th>
+            <th>Number 5</th>
+            <th>Bonus Number</th>
+            <th>Purchase Date</th>
         </tr>
         </thead>
         <tbody>
-        <%= render partial: 'fee_row', collection: @tickets.order(accountID: :asc, date: :desc), as: :fee %>
+        <%= render partial: 'ticket_row', collection: @user.lottery_tickets.order(lottery_id: :asc, drawing_date: :desc), as: :ticket %>
         </tbody>
     </table>
